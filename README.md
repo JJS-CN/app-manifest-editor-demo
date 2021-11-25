@@ -7,8 +7,11 @@ aab包修改manifest后重新打包的demo
 ###相关链接
 
 [简书：安装Android aab包方法](https://www.jianshu.com/p/0a40f33d3677)
+
 [google官方：从命令行构建您的应用](https://developer.android.com/studio/build/building-cmdline#bundletool-build)
+
 [stackoverflow：部署前修改 Android App Bundle (aab) 内容](https://www.jianshu.com/p/0a40f33d3677)
+
 [github：aab-manifest-editor](https://github.com/soulan/aab-manifest-editor)
 
 ### aab包修改与重新打包
