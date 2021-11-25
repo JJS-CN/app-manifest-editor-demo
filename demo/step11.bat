@@ -1,0 +1,1 @@
+java -jar bundletool.jar build-bundle --modules=./base_new.zip --output=./app_new.aab

@@ -2,7 +2,11 @@
 
 aab包修改manifest后重新打包的demo
 
-你可以下载此项目，在demo文件夹下执行下列的操作步骤，快速尝试整个流程
+* 你可以下载此项目，在demo文件夹下执行下列的操作步骤，快速尝试整个流程
+
+* 或者使用index2.js简化手动操作步骤，但步骤11仍有问题需要手动操作
+
+       node index2.js --in-aab ./app.aab --object-path element.application.meta-data[0] --set-elements examples/data-attributes.json
 
 ###相关链接
 

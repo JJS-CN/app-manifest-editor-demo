@@ -1,5 +1,5 @@
 
-ë
+í
 9
 android*http://schemas.android.com/apk/res/androidmanifest"$packagecom.jetpack.myapplication"K
 *http://schemas.android.com/apk/res/androidversionCode1"(›„„2:0"C
@@ -12,8 +12,8 @@
 *http://schemas.android.com/apk/res/androidminSdkVersion21"(Œ„„2:0"Q
 *http://schemas.android.com/apk/res/androidtargetSdkVersion30"(ð„„2:0*
 
-    	(*Œ
-ƒapplication"N
+    	(*Ž
+…application"N
 *http://schemas.android.com/apk/res/androidallowBackuptrue"(€…„2:@"n
 *http://schemas.android.com/apk/res/androidappComponentFactory&androidx.core.app.CoreComponentFactory(úŠ„"p
 *http://schemas.android.com/apk/res/androidicon@mipmap/ic_launcher"(‚€„2
@@ -42,10 +42,10 @@ ecategory"Y
         *
 
 
-        *œ
-“	meta-data"F
-*http://schemas.android.com/apk/res/androidnameUMENG_CHANNEL(ƒ€„">
-*http://schemas.android.com/apk/res/androidvaluetest(¤€„*
+        *ž
+•	meta-data"F
+*http://schemas.android.com/apk/res/androidnameUMENG_CHANNEL(ƒ€„"@
+*http://schemas.android.com/apk/res/androidvaluehuawei(¤€„*
     #*
 
 

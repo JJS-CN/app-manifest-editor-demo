@@ -13,7 +13,7 @@
         "attribute": [
             {
                 "name": "package",
-                "value": "com.yourcompany.android.app"
+                "value": "com.jetpack.myapplication"
             },
             {
                 "namespaceUri": "http://schemas.android.com/apk/res/android",
@@ -266,7 +266,7 @@
                                     {
                                         "namespaceUri": "http://schemas.android.com/apk/res/android",
                                         "name": "name",
-                                        "value": "com.yourcompany.android.app.MainActivity",
+                                        "value": "com.jetpack.myapplication.MainActivity",
                                         "resourceId": 16842755
                                     }
                                 ],
