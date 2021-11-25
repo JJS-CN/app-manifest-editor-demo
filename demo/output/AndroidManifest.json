@@ -1,0 +1,417 @@
+{
+    "element": {
+        "namespaceDeclaration": [
+            {
+                "prefix": "android",
+                "uri": "http://schemas.android.com/apk/res/android",
+                "source": {
+                    "lineNumber": 2
+                }
+            }
+        ],
+        "name": "manifest",
+        "attribute": [
+            {
+                "name": "package",
+                "value": "com.yourcompany.android.app"
+            },
+            {
+                "namespaceUri": "http://schemas.android.com/apk/res/android",
+                "name": "versionCode",
+                "value": "1",
+                "source": {
+                    "lineNumber": 2
+                },
+                "resourceId": 16843291,
+                "compiledItem": {
+                    "prim": {
+                        "intDecimalValue": 1
+                    }
+                }
+            },
+            {
+                "namespaceUri": "http://schemas.android.com/apk/res/android",
+                "name": "versionName",
+                "value": "1.0",
+                "resourceId": 16843292
+            },
+            {
+                "namespaceUri": "http://schemas.android.com/apk/res/android",
+                "name": "compileSdkVersion",
+                "value": "30",
+                "source": {
+                    "lineNumber": 2
+                },
+                "resourceId": 16844146,
+                "compiledItem": {
+                    "prim": {
+                        "intDecimalValue": 30
+                    }
+                }
+            },
+            {
+                "name": "platformBuildVersionCode",
+                "value": "30",
+                "source": {
+                    "lineNumber": 2
+                },
+                "compiledItem": {
+                    "prim": {
+                        "intDecimalValue": 30
+                    }
+                }
+            },
+            {
+                "namespaceUri": "http://schemas.android.com/apk/res/android",
+                "name": "compileSdkVersionCodename",
+                "value": "11",
+                "resourceId": 16844147
+            },
+            {
+                "name": "platformBuildVersionName",
+                "value": "11",
+                "source": {
+                    "lineNumber": 2
+                },
+                "compiledItem": {
+                    "prim": {
+                        "intDecimalValue": 11
+                    }
+                }
+            }
+        ],
+        "child": [
+            {
+                "text": "\n\n    ",
+                "source": {
+                    "lineNumber": 5,
+                    "columnNumber": 31
+                }
+            },
+            {
+                "element": {
+                    "name": "uses-sdk",
+                    "attribute": [
+                        {
+                            "namespaceUri": "http://schemas.android.com/apk/res/android",
+                            "name": "minSdkVersion",
+                            "value": "21",
+                            "source": {
+                                "lineNumber": 7
+                            },
+                            "resourceId": 16843276,
+                            "compiledItem": {
+                                "prim": {
+                                    "intDecimalValue": 21
+                                }
+                            }
+                        },
+                        {
+                            "namespaceUri": "http://schemas.android.com/apk/res/android",
+                            "name": "targetSdkVersion",
+                            "value": "30",
+                            "source": {
+                                "lineNumber": 7
+                            },
+                            "resourceId": 16843376,
+                            "compiledItem": {
+                                "prim": {
+                                    "intDecimalValue": 30
+                                }
+                            }
+                        }
+                    ]
+                },
+                "source": {
+                    "lineNumber": 7,
+                    "columnNumber": 4
+                }
+            },
+            {
+                "text": "\n\n    ",
+                "source": {
+                    "lineNumber": 9,
+                    "columnNumber": 40
+                }
+            },
+            {
+                "element": {
+                    "name": "application",
+                    "attribute": [
+                        {
+                            "namespaceUri": "http://schemas.android.com/apk/res/android",
+                            "name": "allowBackup",
+                            "value": "true",
+                            "source": {
+                                "lineNumber": 11
+                            },
+                            "resourceId": 16843392,
+                            "compiledItem": {
+                                "prim": {
+                                    "booleanValue": true
+                                }
+                            }
+                        },
+                        {
+                            "namespaceUri": "http://schemas.android.com/apk/res/android",
+                            "name": "appComponentFactory",
+                            "value": "androidx.core.app.CoreComponentFactory",
+                            "resourceId": 16844154
+                        },
+                        {
+                            "namespaceUri": "http://schemas.android.com/apk/res/android",
+                            "name": "icon",
+                            "value": "@mipmap/ic_launcher",
+                            "source": {
+                                "lineNumber": 11
+                            },
+                            "resourceId": 16842754,
+                            "compiledItem": {
+                                "ref": {
+                                    "id": 2131492864,
+                                    "name": "mipmap/ic_launcher",
+                                    "typeFlags": 1
+                                }
+                            }
+                        },
+                        {
+                            "namespaceUri": "http://schemas.android.com/apk/res/android",
+                            "name": "label",
+                            "value": "@string/app_name",
+                            "source": {
+                                "lineNumber": 11
+                            },
+                            "resourceId": 16842753,
+                            "compiledItem": {
+                                "ref": {
+                                    "id": 2131623963,
+                                    "name": "string/app_name",
+                                    "typeFlags": 3
+                                }
+                            }
+                        },
+                        {
+                            "namespaceUri": "http://schemas.android.com/apk/res/android",
+                            "name": "roundIcon",
+                            "value": "@mipmap/ic_launcher_round",
+                            "source": {
+                                "lineNumber": 11
+                            },
+                            "resourceId": 16844076,
+                            "compiledItem": {
+                                "ref": {
+                                    "id": 2131492865,
+                                    "name": "mipmap/ic_launcher_round",
+                                    "typeFlags": 1
+                                }
+                            }
+                        },
+                        {
+                            "namespaceUri": "http://schemas.android.com/apk/res/android",
+                            "name": "supportsRtl",
+                            "value": "true",
+                            "source": {
+                                "lineNumber": 11
+                            },
+                            "resourceId": 16843695,
+                            "compiledItem": {
+                                "prim": {
+                                    "booleanValue": true
+                                }
+                            }
+                        },
+                        {
+                            "namespaceUri": "http://schemas.android.com/apk/res/android",
+                            "name": "theme",
+                            "value": "@style/Theme.MyApplication",
+                            "source": {
+                                "lineNumber": 11
+                            },
+                            "resourceId": 16842752,
+                            "compiledItem": {
+                                "ref": {
+                                    "id": 2131689936,
+                                    "name": "style/Theme.MyApplication",
+                                    "typeFlags": 1
+                                }
+                            }
+                        }
+                    ],
+                    "child": [
+                        {
+                            "text": "\n        ",
+                            "source": {
+                                "lineNumber": 18,
+                                "columnNumber": 52
+                            }
+                        },
+                        {
+                            "element": {
+                                "name": "activity",
+                                "attribute": [
+                                    {
+                                        "namespaceUri": "http://schemas.android.com/apk/res/android",
+                                        "name": "exported",
+                                        "value": "true",
+                                        "source": {
+                                            "lineNumber": 19
+                                        },
+                                        "resourceId": 16842768,
+                                        "compiledItem": {
+                                            "prim": {
+                                                "booleanValue": true
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "namespaceUri": "http://schemas.android.com/apk/res/android",
+                                        "name": "name",
+                                        "value": "com.yourcompany.android.app.MainActivity",
+                                        "resourceId": 16842755
+                                    }
+                                ],
+                                "child": [
+                                    {
+                                        "text": "\n            ",
+                                        "source": {
+                                            "lineNumber": 21,
+                                            "columnNumber": 37
+                                        }
+                                    },
+                                    {
+                                        "element": {
+                                            "name": "intent-filter",
+                                            "child": [
+                                                {
+                                                    "text": "\n                ",
+                                                    "source": {
+                                                        "lineNumber": 22,
+                                                        "columnNumber": 27
+                                                    }
+                                                },
+                                                {
+                                                    "element": {
+                                                        "name": "action",
+                                                        "attribute": [
+                                                            {
+                                                                "namespaceUri": "http://schemas.android.com/apk/res/android",
+                                                                "name": "name",
+                                                                "value": "android.intent.action.MAIN",
+                                                                "resourceId": 16842755
+                                                            }
+                                                        ]
+                                                    },
+                                                    "source": {
+                                                        "lineNumber": 23,
+                                                        "columnNumber": 16
+                                                    }
+                                                },
+                                                {
+                                                    "text": "\n\n                ",
+                                                    "source": {
+                                                        "lineNumber": 23,
+                                                        "columnNumber": 68
+                                                    }
+                                                },
+                                                {
+                                                    "element": {
+                                                        "name": "category",
+                                                        "attribute": [
+                                                            {
+                                                                "namespaceUri": "http://schemas.android.com/apk/res/android",
+                                                                "name": "name",
+                                                                "value": "android.intent.category.LAUNCHER",
+                                                                "resourceId": 16842755
+                                                            }
+                                                        ]
+                                                    },
+                                                    "source": {
+                                                        "lineNumber": 25,
+                                                        "columnNumber": 16
+                                                    }
+                                                },
+                                                {
+                                                    "text": "\n            ",
+                                                    "source": {
+                                                        "lineNumber": 25,
+                                                        "columnNumber": 76
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "source": {
+                                            "lineNumber": 22,
+                                            "columnNumber": 12
+                                        }
+                                    },
+                                    {
+                                        "text": "\n        ",
+                                        "source": {
+                                            "lineNumber": 26,
+                                            "columnNumber": 28
+                                        }
+                                    }
+                                ]
+                            },
+                            "source": {
+                                "lineNumber": 19,
+                                "columnNumber": 8
+                            }
+                        },
+                        {
+                            "text": "\n\n        ",
+                            "source": {
+                                "lineNumber": 27,
+                                "columnNumber": 19
+                            }
+                        },
+                        {
+                            "element": {
+                                "name": "meta-data",
+                                "attribute": [
+                                    {
+                                        "namespaceUri": "http://schemas.android.com/apk/res/android",
+                                        "name": "name",
+                                        "value": "UMENG_CHANNEL",
+                                        "resourceId": 16842755
+                                    },
+                                    {
+                                        "namespaceUri": "http://schemas.android.com/apk/res/android",
+                                        "name": "value",
+                                        "value": "huawei",
+                                        "resourceId": 16842788
+                                    }
+                                ]
+                            },
+                            "source": {
+                                "lineNumber": 29,
+                                "columnNumber": 8
+                            }
+                        },
+                        {
+                            "text": "\n    ",
+                            "source": {
+                                "lineNumber": 31,
+                                "columnNumber": 35
+                            }
+                        }
+                    ]
+                },
+                "source": {
+                    "lineNumber": 11,
+                    "columnNumber": 4
+                }
+            },
+            {
+                "text": "\n\n",
+                "source": {
+                    "lineNumber": 32,
+                    "columnNumber": 18
+                }
+            }
+        ]
+    },
+    "source": {
+        "lineNumber": 2
+    }
+}
