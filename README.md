@@ -4,13 +4,20 @@ aab包修改manifest后重新打包的demo
 
 你可以下载此项目，在demo文件夹下执行下列的操作步骤，快速尝试整个流程
 
+###相关链接
+
+[简书：安装Android aab包方法](https://www.jianshu.com/p/0a40f33d3677)
+[google官方：从命令行构建您的应用](https://developer.android.com/studio/build/building-cmdline#bundletool-build)
+[stackoverflow：部署前修改 Android App Bundle (aab) 内容](https://www.jianshu.com/p/0a40f33d3677)
+[github：aab-manifest-editor](https://github.com/soulan/aab-manifest-editor)
+
 ### aab包修改与重新打包
 
 1. 准备好你需要处理的aab包
 
 2. 将aab包当成普通的zip压缩包进行解压，新建名为app的文件夹，将解压后的base文件夹（其他的不重要）放置到里面
 
-3. 下载 https://github.com/soulan/aab-manifest-editor 项目里的`package.json`、`index.js`、`helpers.js`三个文件和`example-json`文件夹里的修改配置demo
+3. 下载[aab-manifest-editor]( https://github.com/soulan/aab-manifest-editor)项目里的`package.json`、`index.js`、`helpers.js`三个文件和`example-json`文件夹里的修改配置demo
 
 4. 安装js运行库
 
@@ -22,17 +29,13 @@ aab包修改manifest后重新打包的demo
 
        node index.js --object-path element.application.meta-data[0] --set-elements examples/data-attributes.json
 
-7. 下载`protobuf`并解压，新建名为proto的文件夹，将解压后的Resources.proto和Configuration.proto放置到里面
-
-   https://mvnrepository.com/artifact/com.android.tools.build/aapt2-proto?repo=google
+7. 下载[protobuf](https://mvnrepository.com/artifact/com.android.tools.build/aapt2-proto?repo=google)并解压，新建名为proto的文件夹，将解压后的Resources.proto和Configuration.proto放置到里面
 
 8. 将修改好的文件放置到原解压出来的app-base-manifest文件夹下
 
 9. 将base文件夹内的所有数据进行zip打包（不包含base文件夹自身）
 
-10. 下载`bundletool.jar`放置到同目录
-
-   https://github.com/google/bundletool/releases
+10. 下载[bundletool.jar](https://github.com/google/bundletool/releases)放置到同目录
 
 11. 执行命令重新生成aab包
 
