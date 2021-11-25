@@ -49,7 +49,7 @@ aab包修改manifest后重新打包的demo
        adb shell wm density
        java -jar bundletool.jar get-device-spec --output=./device-spec.json
 
-执行完后会生成一个device-spec.json文件，这个是决定aab如何生成适配当前手机的apks
+执行完后会生成一个device-spec.json文件
 
 2. 编译aab，输出apks
 
