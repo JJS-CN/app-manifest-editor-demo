@@ -10,7 +10,7 @@ aab包修改manifest后重新打包的demo
 
 2. 将aab包当成普通的zip压缩包进行解压，新建名为app的文件夹，将解压后的base文件夹（其他的不重要）放置到里面
 
-3. 下载https://github.com/soulan/aab-manifest-editor项目里的`package.json`、`index.js`、`helpers.js`三个文件和`example-json`文件夹里的修改配置demo
+3. 下载 https://github.com/soulan/aab-manifest-editor 项目里的`package.json`、`index.js`、`helpers.js`三个文件和`example-json`文件夹里的修改配置demo
 
 4. 安装js运行库
 
